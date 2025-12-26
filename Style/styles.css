@@ -72,9 +72,10 @@ section {
 }
 
 .home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18rem;
 }
 
 .home-content h3 {
@@ -97,9 +98,11 @@ span {
 }
 
 .home-img img {
-    width: 25vw;
-    animation: floatImage 4s ease-in-out infinite;
-    border-radius: 25%;
+  width: 50rem;
+  max-width: 100%;
+  border-radius: 35%;
+  animation: floatImage 4s ease-in-out infinite;
+  box-shadow: 0 0 40px rgba(178, 102, 255, 0.35);
 }
 
 @keyframes floatImage {
@@ -157,11 +160,11 @@ span {
 }
 
 .about {
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    gap:2rem;
-    background: var(--snd-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background: var(--snd-bg-color);
 }
 
 .about-img img {
